@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "app/app.py": true,
+    "data/docs.jsonl": true,
+    "data/passages.jsonl": true,
+    "data/bm25_index.json": true,
+    "data/entities.json": true,
+    "data/entity_graph.json": true,
+    "templates/entities.html": true,
+    "templates/entity_graph.html": true,
+    "scripts/04_extract_entities_graph.py": true
+  },
+  "counts": {
+    "docs": 93,
+    "passages": 510,
+    "entities": 402,
+    "graph_nodes": 250,
+    "graph_edges": 600
+  }
+}
